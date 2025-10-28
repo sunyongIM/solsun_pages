@@ -18830,10 +18830,10 @@ Ta:function Ta(){},
 kp:function kp(a,b){this.c=a
 this.a=b},
 Ey:function Ey(){var _=this
+_.d=0
+_.e=!1
 _.f=0
 _.r=!1
-_.w=0
-_.x=!1
 _.c=_.a=null},
 a_j:function a_j(){},
 a_i:function a_i(a){this.a=a},
@@ -57011,33 +57011,33 @@ Hw(a){if(a)return B.Jx
 else return B.Jy},
 G2(a){if(a)return B.Jw
 else return B.hq},
-W(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.a.c.b<800,g=h?B.j_:B.y9,f=A.CN("SOLSUN",h?B.J1:B.J2,i),e=h?B.Gr:B.u5,d=h?B.bG:B.j0,c=h?B.Il:B.Im,b=t.c
-c=A.Vg(A.b([B.cW,A.a4A(new A.oZ(A.b([A.a5V("\uc77c\uc0c1\uc758 \ubd88\ud3b8\ud568\uc744 \ud574\uacb0\ud558\ub294 IT\uc194\ub8e8\uc158",B.ap),A.a5V("UX\ub97c \uace0\ub824\ud55c \uc12c\uc138\ud55c \uc124\uacc4",B.ap),A.a5V("\ucd5c\uc2e0 \uac1c\ubc1c\ud234\uc744 \uc774\uc6a9\ud55c \ube60\ub974\uace0 \uacbd\uc81c\uc801\uc778 \uac1c\ubc1c",B.ap)],t.rr),!0,i),i,B.c0,!0,c,i,i,B.aE)],b),B.a1,B.az)
-s=h?B.Gs:B.u6
+W(a0){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.a.c.b,g=h<800,f=g?B.j_:B.y9,e=A.CN("SOLSUN",g?B.J1:B.J2,i),d=g?B.Gr:B.u5,c=g?B.bG:B.j0,b=g?B.Il:B.Im,a=t.c
+b=A.Vg(A.b([B.cW,A.a4A(new A.oZ(A.b([A.a5V("\uc77c\uc0c1\uc758 \ubd88\ud3b8\ud568\uc744 \ud574\uacb0\ud558\ub294 IT\uc194\ub8e8\uc158",B.ap),A.a5V("UX\ub97c \uace0\ub824\ud55c \uc12c\uc138\ud55c \uc124\uacc4",B.ap),A.a5V("\ucd5c\uc2e0 \uac1c\ubc1c\ud234\uc744 \uc774\uc6a9\ud55c \ube60\ub974\uace0 \uacbd\uc81c\uc801\uc778 \uac1c\ubc1c",B.ap)],t.rr),!0,i),i,B.c0,!0,b,i,i,B.aE)],a),B.a1,B.az)
+s=g?B.Gs:B.u6
 r=A.eU(i,i,B.F,B.i,i,i,i,2,i,i,i,i,i,340)
-q=A.aar(new A.mZ(A.CN("PORTFOLIO",j.Hw(h),i),new A.a_h(j),i),new A.a_i(j),new A.a_j())
-p=j.r
-o=p?j.f+24:0
-r=A.a4m(A.kj(A.b([r,B.cW,q,A.a7o(B.i,B.du,p?B.bb:B.au,1.2,o)],b),B.a1),i,i)
-q=A.CN("\ub9c8\ucf13\ud074\ub9bd - \ud074\ub9bd \uc601\uc0c1\uc744 \ud1b5\ud55c \uc911\uace0\uac70\ub798\nMobile Web App",j.G2(h),i)
-o=A.b([],b)
+q=A.aar(new A.mZ(A.CN("PORTFOLIO",j.Hw(g),i),new A.a_h(j),i),new A.a_i(j),new A.a_j())
+p=j.e
+o=p?j.d+24:0
+r=A.a4m(A.kj(A.b([r,B.cW,q,A.a7o(B.i,B.du,p?B.bb:B.au,1.2,o)],a),B.a1),i,i)
+q=A.CN("\ub9c8\ucf13\ud074\ub9bd - \ud074\ub9bd \uc601\uc0c1\uc744 \ud1b5\ud55c \uc911\uace0\uac70\ub798\nMobile Web App",j.G2(g),i)
+o=A.b([],a)
 for(n=1;n<8;++n){p=new A.aB(8,8)
 o.push(new A.dc(B.dw,A.eU(i,i,B.F,i,i,new A.dp(i,A.a7W(B.d7,new A.eQ("assets/images/market_clip_0"+n+".png",i,i)),i,new A.cd(p,p,p,p),i,i,B.an),i,200,i,i,i,i,i,400),i))}o.push(A.eU(i,i,B.F,i,i,new A.dp(i,B.xN,i,A.xW(8),i,i,B.an),i,200,i,i,i,i,i,200))
 p=A.a5A(A.Vg(o,B.a1,B.az),B.aF)
-o=A.CN("\uc5ec\uae30\ubd80\ud130 - \ubaa8\ubc14\uc77c \ud0a4\uc624\uc2a4\ud06c\ub97c \uc774\uc6a9\ud55c \uc2a4\ub9c8\ud2b8\ud55c \uc6e8\uc774\ud305 \uad00\ub9ac\nDesktop App / Mobile Web App",j.G2(h),i)
-m=A.b([new A.dc(B.dw,A.eU(i,i,B.F,i,i,new A.dp(i,B.xM,i,A.xW(8),i,i,B.an),i,200,i,i,i,i,i,200),i)],b)
+o=A.CN("\uc5ec\uae30\ubd80\ud130 - \ubaa8\ubc14\uc77c \ud0a4\uc624\uc2a4\ud06c\ub97c \uc774\uc6a9\ud55c \uc2a4\ub9c8\ud2b8\ud55c \uc6e8\uc774\ud305 \uad00\ub9ac\nDesktop App / Mobile Web App",j.G2(g),i)
+m=A.b([new A.dc(B.dw,A.eU(i,i,B.F,i,i,new A.dp(i,B.xM,i,A.xW(8),i,i,B.an),i,200,i,i,i,i,i,200),i)],a)
 for(l=1;l<3;++l){k=new A.aB(8,8)
 m.push(new A.dc(B.dw,A.eU(i,i,B.F,i,i,new A.dp(i,A.a7W(B.d7,new A.eQ("assets/images/grab_thumb_0"+l+".png",i,i)),i,new A.cd(k,k,k,k),i,i,B.an),i,200,i,i,i,i,i,200),i))}m.push(new A.dc(B.dw,A.eU(i,i,B.F,i,i,new A.dp(i,B.xO,i,A.xW(8),i,i,B.an),i,200,i,i,i,i,i,400),i))
-q=A.kj(A.b([q,B.hi,p,B.u4,o,B.hi,A.a5A(A.Vg(m,B.a1,B.az),B.aF)],b),B.ao)
+q=A.kj(A.b([q,B.hi,p,B.u4,o,B.hi,A.a5A(A.Vg(m,B.a1,B.az),B.aF)],a),B.ao)
 p=A.eU(i,i,B.F,B.i,i,i,i,2,i,i,i,i,i,340)
-o=A.aar(new A.mZ(A.CN("CONTACT",j.Hw(h),i),new A.a_k(j),i),new A.a_l(j),new A.a_m())
-m=j.x
-k=m?j.w+24:0
-p=A.a4m(A.kj(A.b([p,B.cW,o,A.a7o(B.i,B.du,m?B.bb:B.au,1.2,k)],b),B.a1),i,i)
-o=h?B.u4:B.u5
-o=A.eU(i,A.kj(A.b([B.Gt,new A.dc(g,f,i),e,new A.dc(d,A.kj(A.b([new A.dc(B.j0,c,i),s,A.kj(A.b([r,B.cW,new A.dc(B.j_,q,i),B.u6,p,B.cW,B.xv,o],b),B.ao)],b),B.ao),i)],b),B.ao),B.F,i,i,B.vc,i,i,i,i,i,i,i,i)
-p=A.eU(i,i,B.F,B.i,i,i,i,16,i,i,i,i,i,A.d4(a,i,t.w).w.a.a)
-return new A.tg(A.a5A(A.kj(A.b([o,A.kj(A.b([p,A.eU(i,new A.dc(B.ya,A.Vg(A.b([new A.qF(A.ajx(i,i,new A.eQ("assets/images/solsun_logo.png",i,i)),68,68,B.vd,i),B.Do],b),B.a1,B.az),i),B.F,B.iO,i,i,i,i,i,i,i,i,i,i)],b),B.a1)],b),B.a1),B.aU),i)}}
+o=A.aar(new A.mZ(A.CN("CONTACT",j.Hw(g),i),new A.a_k(j),i),new A.a_l(j),new A.a_m())
+m=j.r
+k=m?j.f+24:0
+p=A.a4m(A.kj(A.b([p,B.cW,o,A.a7o(B.i,B.du,m?B.bb:B.au,1.2,k)],a),B.a1),i,i)
+o=g?B.u4:B.u5
+h=A.eU(i,A.kj(A.b([B.Gt,new A.dc(f,e,i),d,new A.dc(c,A.kj(A.b([new A.dc(B.j0,b,i),s,A.kj(A.b([r,B.cW,new A.dc(B.j_,q,i),B.u6,p,B.cW,B.xv,o],a),B.ao)],a),B.ao),i)],a),B.ao),B.F,i,i,B.vc,i,i,i,i,i,i,i,h)
+o=A.eU(i,i,B.F,B.i,i,i,i,16,i,i,i,i,i,A.d4(a0,i,t.w).w.a.a)
+return new A.tg(A.a5A(A.kj(A.b([h,A.kj(A.b([o,A.eU(i,new A.dc(B.ya,A.Vg(A.b([new A.qF(A.ajx(i,i,new A.eQ("assets/images/solsun_logo.png",i,i)),68,68,B.vd,i),B.Do],a),B.a1,B.az),i),B.F,B.iO,i,i,i,i,i,i,i,i,i,i)],a),B.a1)],a),B.a1),B.aU),i)}}
 A.a_j.prototype={
 $0(){},
 $S:0}
@@ -57046,10 +57046,10 @@ $1(a){var s=this.a
 s.ar(new A.a_g(s,a))},
 $S:21}
 A.a_g.prototype={
-$0(){this.a.r=this.b},
+$0(){this.a.e=this.b},
 $S:0}
 A.a_h.prototype={
-$1(a){this.a.f=a.a},
+$1(a){this.a.d=a.a},
 $S:141}
 A.a_m.prototype={
 $0(){},
@@ -57059,10 +57059,10 @@ $1(a){var s=this.a
 s.ar(new A.a_f(s,a))},
 $S:21}
 A.a_f.prototype={
-$0(){this.a.x=this.b},
+$0(){this.a.r=this.b},
 $S:0}
 A.a_k.prototype={
-$1(a){this.a.w=a.a},
+$1(a){this.a.f=a.a},
 $S:141}
 A.l0.prototype={
 bk(a){var s=a.a,r=this.a,q=s[8]
@@ -61249,7 +61249,7 @@ B.H4=new A.cc(-1,-1)
 B.ug=new A.CS(0,"left")
 B.uh=new A.CS(1,"right")
 B.H5=new A.u8(null,null,null)
-B.Il=new A.h(!0,B.i,null,"Play",null,null,20,B.bc,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Il=new A.h(!0,B.i,null,"Play",null,null,16,B.bc,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Im=new A.h(!0,B.i,null,"Play",null,null,40,B.bc,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.wY=new A.x(0.8156862745098039,1,0,0,B.f)
 B.GZ=new A.u1(1)
